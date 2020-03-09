@@ -223,7 +223,7 @@ p {
 }
 
 .projectimage {
-  max-width: 460px;
+  max-width: 50%;
   margin-left: 50%;
   opacity: 0.3;
   position: absolute;
