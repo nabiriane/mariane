@@ -1,0 +1,342 @@
+@font-face {
+font-family: 'Salome';
+src: url("./Salome-Regular-Webfont/salome-webfont.eot");
+src:
+url("./Salome-Regular-Webfont/salome-webfont.woff") format("woff"),
+url("./Salome-Regular-Webfont/salome-webfont.ttf") format("opentype"),
+url("./Salome-Regular-Webfont/salome-webfont.svg") format("svg");
+}
+
+@-webkit-keyframes Mariane {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes Mariane {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#backicon {
+  position: fixed;
+  z-index: 1;
+  margin: 0px 0px 400px 35px;
+  max-height: 30px;
+  max-width: 30px;
+  bottom: 0px;
+}
+
+.calltoaction {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Courier';
+  color: black;
+  font-weight: 100;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 18px 25px 18px 25px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.calltoaction:hover {
+  color: white;
+  border-color: white;
+  background: linear-gradient(270deg, #56CEF4,#00FF13);
+  background-size: 500% 500%;
+  -webkit-animation: Mariane 1s ease infinite;
+  animation: Mariane 1s ease infinite;
+}
+
+.calltoaction:focus {
+  background-color: white;
+}
+
+.container {
+  position: relative;
+}
+
+#hero-article {
+  margin-top: 200px;
+}
+
+.CaseStudy p {
+  max-width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CaseStudy img {
+  max-width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.clickicon{
+  max-height: 40px;
+  max-width: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.clickicon:hover {
+  color: white;
+  border: none;
+  background: linear-gradient(270deg, #56CEF4,#00FF13);
+  background-size: 500% 500%;
+  -webkit-animation: Mariane 1s ease infinite;
+  animation: Mariane 1s ease infinite;
+}
+
+.container {
+
+}
+
+.credit-name {
+  font-family: 'Salome';
+  font-size: 16px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.credit-name:hover {
+  background: linear-gradient(270deg, #56CEF4,#00FF13);
+  background-size: 500% 500%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  -webkit-animation: Mariane 1s ease infinite;
+  animation: Mariane 1s ease infinite;
+}
+
+.credit-title {
+  font-family: 'Courier';
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.DIVIDER-Gradient {
+  width: 120px;
+  height: 15px;
+  border: 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  background: linear-gradient(270deg, #56CEF4,#00FF13);
+  background-size: 500% 500%;
+  -webkit-animation: Mariane 1s ease infinite;
+  animation: Mariane 1s ease infinite;
+}
+
+.DIVIDER-Thin {
+  width: 80%;
+  height: 3px;
+  margin-top: 180px;
+  margin-bottom: 180px;
+  border: 0px;
+  box-sizing: border-box;
+  background: linear-gradient(270deg, #56CEF4,#00FF13);
+}
+
+
+#footer {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+#footer .container {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-family: 'Salome';
+  font-size: 60px;
+  max-width: 80%;
+  margin: 0px 0px 0px 0px;
+}
+
+h2 {
+  font-family: 'Courier';
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin: 5px 0px 30px 0px;
+}
+
+h3 {
+  font-family: 'Salome';
+  font-size: 30px;
+  margin: 60px 0px 15px 0px;
+}
+
+h4 {
+  font-family: 'Salome';
+  font-size: 20px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#hero {
+  margin-top: 0px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.inlinelink {
+  font-family: 'Salome';
+  font-size: 16px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.inlinelink:hover {
+  background: linear-gradient(270deg, #56CEF4,#00FF13);
+  background-size: 500% 500%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  -webkit-animation: Mariane 1s ease infinite;
+  animation: Mariane 1s ease infinite;
+}
+
+p {
+  font-family: 'Courier New';
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #000000;
+  max-width: 60%;
+  z-index:1;
+}
+
+.projectimage {
+  max-width: 460px;
+  margin-left: 50%;
+  opacity: 0.3;
+  position: absolute;
+  z-index: -1;
+}
+
+#Portrait {
+  max-width: 50%;
+  margin-left: 50%;
+  padding-top: 110px;
+  opacity: 0.3;
+  position: absolute;
+  z-index: -1;
+}
+
+
+.sidetitle {
+  font-family: 'Courier';
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin: 0px 0px 0px 0px;
+  position: fixed;
+  z-index: -1;
+  transform: rotate(-90deg);
+  transform-origin: left;
+  bottom: 0px;
+  padding-top: 100px;
+}
+
+.sidebyside {
+  display: inline-block;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.star {
+  max-width: 20px;
+  padding-bottom: 5px;
+}
+
+p.testimonial-left {
+  width: 45%;
+  margin-left: 10%;
+  margin-bottom: 100px;
+}
+
+p.testimonial-right {
+  width: 45%;
+  margin-left: 45%;
+  margin-bottom: 100px;
+}
+
+#two-col {
+  width: 100%;
+  display: table;
+}
+
+.two-column {
+  float: left;
+  display: inline-block;
+  width: 45%;
+}
+
+
+#three-col {
+  width: 110%;
+  display: inline-block;
+}
+
+.three-column {
+  float: left;
+  width: 28%;
+  margin: 2%;
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+  #backicon {
+    position: fixed;
+    z-index: 1;
+    margin-left: 35px;
+    max-height: 40px;
+    max-width: 40px;
+    top: 50px;
+
+    color: white;
+    border: none;
+    background: linear-gradient(270deg, #56CEF4,#00FF13);
+    background-size: 500% 500%;
+    -webkit-animation: Mariane 1s ease infinite;
+    animation: Mariane 1s ease infinite;
+  }
+  p {
+    max-width: 90%;
+  }
+  p.testimonial-left, p.testimonial-right {
+    width: 80%;
+      margin-left: auto;
+  }
+  .sidetitle {
+    display: none;
+  }
+  .two-column {
+    display: block;
+    float: none;
+    margin: auto;
+    width: 90%;
+  }
+  .three-column {
+    width: 90%;
+  }
+
+}
